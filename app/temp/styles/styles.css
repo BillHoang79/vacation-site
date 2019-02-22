@@ -465,73 +465,9 @@ img {
 	        box-sizing: border-box;
 }
 
-.wrapper {
-	overflow: hidden;
-	padding-left: 18px;
-	padding-right: 18px;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+a {
+	color: #d59541;
 }
-
-.wrapper--medium {
-		max-width: 976px;
-	}
-
-.wrapper .wrapper {
-		padding-left: 0;
-		padding-right: 0;
-	}
-
-.wrapper--b-margin {
-		margin-bottom: 1rem;
-	}
-
-@media (min-width: 530px) {
-
-.wrapper--b-margin {
-			margin-bottom:3.875rem
-	}
-	}
-
-.btn {
-	background-color: #2f5572;
-	color: #fff;
-	text-decoration: none;
-	padding: .75rem 1.2rem;
-	display: inline-block;
-}
-
-.btn--orange {
-		background-color: #d59541;
-	}
-
-.btn--large {
-		padding: 1.1rem 1.9rem;
-	}
-
-@media (min-width: 530px) {
-
-.btn {
-		font-size: 1.25rem
-}
-	}
-
-.page-section {
-	padding: 1.2rem 0;
-}
-
-@media (min-width: 800px) {
-
-.page-section {
-		padding: 4.5rem 0
-}
-	}
-
-.page-section--blue {
-		background-color: #2f5572;
-		color: #fff;
-	}
 
 .large-hero {
 	border-bottom: 10px solid #2f5572;
@@ -595,6 +531,74 @@ img {
 .large-hero {
 		font-size: 1.875rem
 }
+	}
+
+.btn {
+	background-color: #2f5572;
+	color: #fff;
+	text-decoration: none;
+	padding: .75rem 1.2rem;
+	display: inline-block;
+}
+
+.btn--orange {
+		background-color: #d59541;
+	}
+
+.btn--large {
+		padding: 1.1rem 1.9rem;
+	}
+
+@media (min-width: 530px) {
+
+.btn {
+		font-size: 1.25rem
+}
+	}
+
+.wrapper {
+	overflow: hidden;
+	padding-left: 18px;
+	padding-right: 18px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper--medium {
+		max-width: 976px;
+	}
+
+.wrapper .wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+.wrapper--b-margin {
+		margin-bottom: 1rem;
+	}
+
+@media (min-width: 530px) {
+
+.wrapper--b-margin {
+			margin-bottom:3.875rem
+	}
+	}
+
+.page-section {
+	padding: 1.2rem 0;
+}
+
+@media (min-width: 800px) {
+
+.page-section {
+		padding: 4.5rem 0
+}
+	}
+
+.page-section--blue {
+		background-color: #2f5572;
+		color: #fff;
 	}
 
 .headline {
@@ -669,7 +673,15 @@ img {
 		padding-right: 65px;
 	}
 
+.row__b-margin-until-medium {
+		margin-bottom: 1rem;
+	}
+
 @media (min-width: 800px) {
+		.row__b-margin-until-medium {
+			margin-bottom: 0;
+		}
+		
 		.row__medium-4 {
 			float: left;
 			width: 33.33%;
@@ -688,3 +700,20 @@ img {
 			width: 63%;
 		}
 	}
+
+.generic-content-container p {
+        line-height: 1.65;
+        margin: 1.8rem 0;
+    }
+
+@media (min-width: 530px) {
+
+.generic-content-container p {
+            font-size: 1.125rem
+    }
+	}
+
+.generic-content-container p a {
+        font-weight: 700;
+    }
+
