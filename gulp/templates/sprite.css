@@ -7,7 +7,7 @@ Edit gulp/templates/sprite */
         background-image: url('/assets/images/sprites/{{{sprite}}}');
     }
 
-    .no-svg icon {
+    .no-svg .icon {
         background-image: url('/assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
     }
     
@@ -18,4 +18,4 @@ Edit gulp/templates/sprite */
         height: {{height.outer}}px;
         background-position: {{position.relative.xy}}; 
     }
-{{/shapes}}
+{{/shapes}}       
